@@ -25,7 +25,7 @@ function run() {
 
     return resolve(newSet);
   })
-  
+
 }
 
 function shuffle(array, times) {
@@ -44,5 +44,5 @@ function shuffle(array, times) {
 }
 
 run().then(cards => {
-  
+  console.log(cards);
 });
