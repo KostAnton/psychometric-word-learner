@@ -44,5 +44,5 @@ function shuffle(array, times) {
 }
 
 run().then(cards => {
-  console.log(cards);
+  console.log(cards); // 0 = Word, 1 = Definition
 });
