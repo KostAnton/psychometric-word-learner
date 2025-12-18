@@ -1,3 +1,4 @@
+const { Prompt, default: inquirer } = require('inquirer');
 const LAST_CARD = 0;
 const LEARNING_WINDOW = 20;
 const RANDOM = true;
@@ -44,4 +45,5 @@ function shuffle(array, times) {
 
 run().then(cards => {
   console.log(cards); // 0 = Word, 1 = Definition
+  Prompt()
 });
